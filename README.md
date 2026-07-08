@@ -6,7 +6,7 @@ This repository hosts the **release binaries and notes** for Bedevere Desktop. T
 
 ## Download
 
-Get the installer from the [**Releases**](../../releases/latest) page — currently **0.14.0-beta** (~19 MB):
+Get the installer from the [**Releases**](../../releases) page — currently **0.14.0-beta** (~19 MB):
 
 → `Bedevere-Desktop-0.14.0-win-x64-setup.exe`
 
