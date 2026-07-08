@@ -1,0 +1,86 @@
+BEDEVERE DESKTOP — BETA END-USER LICENSE AGREEMENT
+
+Last updated: 2026-07-07
+
+This End-User License Agreement ("Agreement") is a legal agreement between
+you ("you") and Massimo Meneghello, trading as "KoliStat" ("KoliStat",
+"we", "us"), an individual based in the United Kingdom, for the Bedevere
+Desktop software, including its installer,
+executables, and accompanying files (the "Software").
+
+BY INSTALLING OR USING THE SOFTWARE, YOU AGREE TO THIS AGREEMENT. IF YOU DO
+NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
+
+1. BETA SOFTWARE. The Software is pre-release "beta" software provided for
+   evaluation and testing. It may be incomplete, contain errors, and change
+   or stop working. It is not intended for production or business-critical
+   use. We may modify, suspend, or discontinue the Software or the beta
+   program at any time.
+
+2. LICENSE GRANT. Subject to this Agreement, KoliStat grants you a personal,
+   limited, non-exclusive, non-transferable, non-sublicensable, revocable
+   license to install and use the Software on devices you own or control,
+   solely to evaluate the Software during the beta period.
+
+3. RESTRICTIONS. You may not: (a) redistribute, sell, rent, lease, or
+   otherwise make the Software available to third parties; (b) modify,
+   adapt, or create derivative works of the Software; (c) reverse engineer,
+   decompile, or disassemble the Software, except where this restriction is
+   prohibited by applicable law; (d) remove or alter any proprietary
+   notices; or (e) use the Software to build a competing product. These
+   restrictions do not apply to the open-source components in Section 7,
+   which remain governed by their own licenses.
+
+4. OWNERSHIP. The Software is licensed, not sold. KoliStat and its licensors
+   retain all right, title, and interest in and to the Software, including
+   all intellectual property rights. No rights are granted except as
+   expressly stated here.
+
+5. YOUR DATA. The Software is local-first: the files you open and the
+   queries you run are processed entirely on your device. The Software does
+   not transmit your data, files, queries, or usage to KoliStat. If a future
+   version introduces optional error or performance reporting, what it
+   collects and how to control it will be described at kolistat.com/privacy
+   and covered by an updated version of this Agreement. You are responsible
+   for your data and for complying with laws applicable to it.
+
+6. FEEDBACK. If you give us feedback about the Software, you grant KoliStat
+   a perpetual, irrevocable, royalty-free license to use it without
+   restriction or obligation to you.
+
+7. THIRD-PARTY & OPEN-SOURCE COMPONENTS. The Software includes third-party
+   and open-source components (including software under the MIT and Apache
+   2.0 licenses). Those components are provided under their own terms, listed
+   in the accompanying THIRD-PARTY-NOTICES file, which govern your use of
+   them. Nothing here limits your rights under those licenses.
+
+8. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT
+   WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+   Because the Software is beta, you assume all risk of using it, including
+   possible data loss.
+
+9. LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY LAW, KOLISTAT
+   WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+   OR EXEMPLARY DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, OR GOODWILL,
+   ARISING OUT OF OR RELATED TO THE SOFTWARE. KOLISTAT'S TOTAL LIABILITY
+   WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT YOU PAID FOR THE SOFTWARE
+   (NIL DURING THE FREE BETA) OR (b) GBP 50 (fifty). Nothing in this Agreement excludes or limits our liability
+   where it would be unlawful to do so, including for death or personal
+   injury caused by negligence, for fraud, or for your statutory rights as a
+   consumer under the laws of England and Wales.
+
+10. TERM & TERMINATION. This Agreement is effective until terminated. It
+    terminates automatically if you breach it, when the beta period ends, or
+    if we discontinue the Software. On termination you must stop using and
+    uninstall the Software. Sections 3–9 and 11 survive termination.
+
+11. GENERAL. This Agreement is governed by the laws of England and Wales,
+    without regard to its conflict-of-laws rules, and the courts of England
+    and Wales have exclusive jurisdiction. If any provision is unenforceable,
+    the rest remains in effect. This is the entire agreement between you and
+    KoliStat regarding the Software and supersedes prior understandings. We
+    may update these terms; the current version is posted at
+    kolistat.com/products/bedevere/terms.
+
+Contact: kolistat.com/contact
