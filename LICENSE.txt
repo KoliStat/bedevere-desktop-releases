@@ -1,4 +1,4 @@
-BEDEVERE DESKTOP — BETA END-USER LICENSE AGREEMENT
+BEDEVERE DESKTOP - BETA END-USER LICENSE AGREEMENT
 
 Last updated: 2026-07-07
 
@@ -65,15 +65,16 @@ NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
    OR EXEMPLARY DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, OR GOODWILL,
    ARISING OUT OF OR RELATED TO THE SOFTWARE. KOLISTAT'S TOTAL LIABILITY
    WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT YOU PAID FOR THE SOFTWARE
-   (NIL DURING THE FREE BETA) OR (b) GBP 50 (fifty). Nothing in this Agreement excludes or limits our liability
-   where it would be unlawful to do so, including for death or personal
-   injury caused by negligence, for fraud, or for your statutory rights as a
-   consumer under the laws of England and Wales.
+   (NIL DURING THE FREE BETA) OR (b) GBP 50 (fifty). Nothing in this
+   Agreement excludes or limits our liability where it would be unlawful
+   to do so, including for death or personal injury caused by negligence,
+   for fraud, or for your statutory rights as a consumer under the laws of
+   England and Wales.
 
 10. TERM & TERMINATION. This Agreement is effective until terminated. It
     terminates automatically if you breach it, when the beta period ends, or
     if we discontinue the Software. On termination you must stop using and
-    uninstall the Software. Sections 3–9 and 11 survive termination.
+    uninstall the Software. Sections 3-9 and 11 survive termination.
 
 11. GENERAL. This Agreement is governed by the laws of England and Wales,
     without regard to its conflict-of-laws rules, and the courts of England
