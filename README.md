@@ -6,9 +6,9 @@ This repository hosts the **release binaries and notes** for Bedevere Desktop. T
 
 ## Download
 
-Get the installer from the [**Releases**](../../releases) page — currently **0.14.0-beta** (~19 MB):
+Get the installer from the [**Releases**](../../releases) page — currently **0.15.0-beta** (~19 MB):
 
-→ `Bedevere-Desktop-0.14.0-win-x64-setup.exe`
+→ `Bedevere-Desktop-0.15.0-win-x64-setup.exe`
 
 ## Install
 
@@ -27,7 +27,7 @@ This is a **public beta** — expect rough edges, and please report anything you
 Each release lists a SHA-256 checksum. To confirm your download is intact, run in PowerShell:
 
 ```powershell
-Get-FileHash Bedevere-Desktop-0.14.0-win-x64-setup.exe -Algorithm SHA256
+Get-FileHash Bedevere-Desktop-0.15.0-win-x64-setup.exe -Algorithm SHA256
 ```
 
 and compare the hash to the one in the release notes.
