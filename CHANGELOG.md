@@ -2,6 +2,16 @@
 
 All notable changes to Bedevere Desktop. Installers are on the [Releases](../../releases) page.
 
+## 0.16.0-beta — 2026-11-02
+
+- **Your workspace comes back after a restart.** Open dataset tabs reopen in the same order, with their column filters and sorts, and so do your settings, environments and query tabs. This works for folders, and for files opened with the `.import` command. Files added by drag-and-drop or with Help → Import → Browse Files do not come back yet. A fix is planned for 0.17.
+- **New statistics.** the-stats-duck 0.9 adds `glm_fit`, `emmeans`, `lin_hyp`, `ptukey` and `qtukey`. Native **DuckDB is updated to 1.5.6**, the same version as bedeverewise.app.
+- **Excel files open however you add them.** Dropped and uploaded `.xlsx` files now work, and import finds the table when a sheet has rows above it.
+- **Chart colours at 3:1 contrast** on the Paper and Night themes, and prose set in Source Sans 3. The app's fonts are now bundled.
+- **Folder import runs once.** A file whose table name is taken gets a numbered name, such as `AE_2`.
+- **Help opens at startup only on your first visit.** Settings → Startup turns it back on.
+- **About** shows the desktop's license, release notes and third-party notices, and the status bar shows the right version.
+
 ## 0.15.0-beta — 2026-09-05
 
 - **Saved queries no longer vanish or revert.** Three data-loss paths closed, including the desktop store split that caused "saved a query, got a different one back, then it vanished". Queries that seemed lost in 0.14 may reappear after upgrading — they were saved all along.

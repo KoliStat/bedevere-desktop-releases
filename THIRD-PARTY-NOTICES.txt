@@ -7,7 +7,7 @@ These notices satisfy attribution requirements and do not modify the Bedevere
 Desktop End-User License Agreement (see LICENSE.txt).
 
 Inventory verified against CMakeLists.txt, conanfile.txt, extensions/README.md,
-and renderer/package.json for the 0.14.0 build (Windows x64). Versions are
+and renderer/package.json for the 0.16.0 build (Windows x64). Versions are
 pinned for that build; re-scan on any dependency bump.
 
 ================================================================================
@@ -15,7 +15,7 @@ NATIVE SHELL — linked into bedevere-desktop.exe
 ================================================================================
 
 DuckDB (with its Parquet and JSON extensions)
-  Version:   1.5.1  (bundled statically via KoliStat/duckdb-static, v1.5.1-win-x64)
+  Version:   1.5.6  (bundled statically via KoliStat/duckdb-static, v1.5.6-win-x64)
   License:   MIT
   Copyright: (c) 2018-present Stichting DuckDB Foundation and DuckDB Labs BV
   Source:    https://github.com/duckdb/duckdb
@@ -72,13 +72,13 @@ Microsoft Edge WebView2 SDK (loader, statically linked)
              Project) is reproduced under LICENSE TEXTS.
 
 the-stats-duck (stats_duck DuckDB extension) — bundled loadable
-  Version:   built against DuckDB v1.5.1 (vendored binary; see extensions/README.md)
+  Version:   0.9.0, built against DuckDB v1.5.6 (vendored binary; see extensions/README.md)
   License:   Apache License 2.0
   Copyright: (c) Massimo Meneghello (KoliStat)
   Source:    https://github.com/KoliStat/the-stats-duck
 
 DuckDB "excel" extension — bundled loadable
-  Version:   built against DuckDB v1.5.1 (DuckDB official excel extension)
+  Version:   built against DuckDB v1.5.6 (DuckDB official excel extension)
   License:   MIT
   Copyright: (c) 2018-present Stichting DuckDB Foundation and DuckDB Labs BV
   Source:    https://github.com/duckdb/duckdb  (extensions/excel)
@@ -88,7 +88,7 @@ RENDERER — bundled JavaScript / CSS / fonts (embedded as index.html)
 ================================================================================
 
 @kolistat/bedevere-wise
-  Version:   0.14.0
+  Version:   0.16.0
   License:   MIT
   Copyright: (c) Massimo Meneghello (KoliStat)
   Source:    https://github.com/KoliStat/bedevere-wise
@@ -117,20 +117,21 @@ D3 (d3-array, d3-scale, d3-shape, d3-time-format, … — pulled in by Vega)
   Source:    https://github.com/d3
 
 IBM Plex Mono
+  Version:   5.3.0  (@fontsource/ibm-plex-mono)
   License:   SIL Open Font License 1.1
   Copyright: (c) IBM Corp., with Reserved Font Name "IBM Plex"
   Source:    https://github.com/IBM/plex
 
-Source Serif 4
+Source Sans 3
+  Version:   5.3.1  (@fontsource/source-sans-3)
   License:   SIL Open Font License 1.1
   Copyright: (c) Adobe, with Reserved Font Name "Source"
-  Source:    https://github.com/adobe-fonts/source-serif
+  Source:    https://github.com/adobe-fonts/source-sans
 
-Note: @duckdb/duckdb-wasm (^1.33.1) is a declared renderer dependency, but the
-desktop shell talks to a NATIVE DuckDB over the local socket, so the WASM build
-is expected to be tree-shaken out of the desktop bundle. Confirm against the
-built bundle; if present it is MIT, (c) 2021-present DuckDB Labs; if absent this
-line can be dropped.
+Note: @duckdb/duckdb-wasm (1.33.1-dev65.0) is a declared renderer dependency,
+because bedevere-wise requires it as a peer. The desktop bundle does not include
+it: the renderer imports only the /app and /ipc entries, and DuckDB runs
+natively in the shell. Checked against the 0.16.0 renderer build.
 
 The renderer bundle also pulls in smaller transitive dependencies under
 compatible MIT / BSD / Apache-2.0 / ISC terms. Generate a full renderer SBOM
@@ -144,8 +145,8 @@ LICENSE TEXTS
 --------------------------------------------------------------------------------
 The MIT License
   applies to: DuckDB, DuckDB "excel" extension, nlohmann/json, webview,
-  @kolistat/bedevere-wise, DuckDB-Wasm (if bundled), CodeMirror
-  (codemirror / @codemirror/* / @lezer/*)
+  @kolistat/bedevere-wise, CodeMirror (codemirror / @codemirror/* /
+  @lezer/*)
 --------------------------------------------------------------------------------
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -536,7 +537,7 @@ Arrow nanoarrow and Apache Arrow JavaScript) is reproduced below:
 --------------------------------------------------------------------------------
 SIL Open Font License 1.1
   applies to: IBM Plex Mono   — Copyright (c) IBM Corp., Reserved Font Name "IBM Plex"
-              Source Serif 4  — Copyright (c) Adobe, Reserved Font Name "Source"
+              Source Sans 3   — Copyright (c) Adobe, Reserved Font Name "Source"
 --------------------------------------------------------------------------------
 
 SIL OPEN FONT LICENSE
