@@ -2,7 +2,7 @@
 
 All notable changes to Bedevere Desktop. Installers are on the [Releases](../../releases) page.
 
-## 0.16.0-beta — 2026-11-02
+## 0.16.0-beta — 2026-11-03
 
 - **Your workspace comes back after a restart.** Open dataset tabs reopen in the same order, with their column filters and sorts, and so do your settings, environments and query tabs. This works for folders, and for files opened with the `.import` command. Files added by drag-and-drop or with Help → Import → Browse Files do not come back yet. A fix is planned for 0.17.
 - **New statistics.** the-stats-duck 0.9 adds `glm_fit`, `emmeans`, `lin_hyp`, `ptukey` and `qtukey`. Native **DuckDB is updated to 1.5.6**, the same version as bedeverewise.app.
