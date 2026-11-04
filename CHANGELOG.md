@@ -1,6 +1,6 @@
-# Changelog — Bedevere Desktop
+# Changelog — bedevere desktop
 
-All notable changes to Bedevere Desktop. Installers are on the [Releases](../../releases) page.
+All notable changes to bedevere desktop. Installers are on the [Releases](../../releases) page.
 
 ## 0.16.0-beta — 2026-11-03
 
