@@ -1,8 +1,8 @@
-# Bedevere Desktop
+# bedevere desktop
 
-**The native, local-first build of [Bedevere](https://bedeverewise.app) for Windows** — real DuckDB and the-stats-duck running on your own machine, no browser sandbox. Open SAS, SPSS, Stata, Parquet, and Excel files and query them with SQL: the same editor, table, and charts as [bedeverewise.app](https://bedeverewise.app), just running on native DuckDB.
+**The native, local-first build of [bedevere](https://bedeverewise.app) for Windows** — real DuckDB and the-stats-duck running on your own machine, no browser sandbox. Open SAS, SPSS, Stata, Parquet, and Excel files and query them with SQL: the same editor, table, and charts as [bedeverewise.app](https://bedeverewise.app), just running on native DuckDB.
 
-This repository hosts the **release binaries and notes** for Bedevere Desktop. The application source is maintained privately.
+This repository hosts the **release binaries and notes** for bedevere desktop. The application source is maintained privately.
 
 ## Download
 
@@ -14,7 +14,7 @@ Get the installer from the [**Releases**](../../releases) page — currently **0
 
 1. Download and run the installer.
 2. It is **not yet code-signed**, so Windows SmartScreen will warn you — click **More info → Run anyway**.
-3. Bedevere Desktop uses the **WebView2 runtime**. Windows 11 already has it; on Windows 10 it arrives with any recent version of Microsoft Edge.
+3. bedevere desktop uses the **WebView2 runtime**. Windows 11 already has it; on Windows 10 it arrives with any recent version of Microsoft Edge.
 
 **System requirements:** Windows 10 or 11, 64-bit (x64). macOS and Linux are planned.
 
@@ -39,6 +39,6 @@ and compare the hash to the one in the release notes.
 
 ## License
 
-Bedevere Desktop is proprietary software, free to use during the beta. See [LICENSE.txt](LICENSE.txt) for the End-User License Agreement and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) for the open-source components it includes.
+bedevere desktop is proprietary software, free to use during the beta. See [LICENSE.txt](LICENSE.txt) for the End-User License Agreement and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) for the open-source components it includes.
 
 © 2026 Massimo Meneghello (KoliStat)
